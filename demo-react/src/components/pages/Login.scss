@@ -1,0 +1,135 @@
+.signup {
+  ::-webkit-input-placeholder {
+    /* Edge */
+
+    color: rgba(75, 155, 150, 0.6);
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer */
+
+    color: rgba(75, 155, 150, 0.6);
+  }
+
+  ::placeholder {
+    color: rgba(75, 155, 150, 0.6);
+  }
+
+  .signup__bgimage {
+    background-image: url("../Images/loginbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .signup__container {
+      display: flex;
+      align-items: center;
+      align-content: center;
+
+      .signup__card {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-height: 500px;
+        max-width: 500px;
+        background-color: rgba(255, 255, 255, 0.4);
+
+        form {
+          padding: 40px;
+
+          .form__header {
+          }
+          .form__body {
+            .input__name {
+              width: 46%;
+              padding: 8px 20px;
+              margin-top: 13px;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+              margin-right: 10px;
+              border-radius: 20px;
+
+              &:focus {
+                outline: none;
+                border: 1px solid rgba(75, 155, 150, 1);
+                border-radius: 20px;
+              }
+            }
+            .input {
+              width: 95%;
+              padding: 8px 20px;
+              margin-top: 13px;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+              border-radius: 20px;
+
+              &:focus {
+                outline: none;
+                border: 1px solid rgba(75, 155, 150, 1);
+                border-radius: 20px;
+              }
+            }
+            .form__body__btn {
+              .form__body__btn__login {
+                margin-top: 40px;
+                width: 176px;
+                height: 46px;
+                border-radius: 20px;
+                outline: none;
+                border: none;
+                font-size: 18px;
+                color: #fff;
+                cursor: pointer;
+                background-color: rgba(75, 155, 150, 1);
+                margin-left: 110px;
+
+                &:hover {
+                  padding: 6px 18px;
+                  transition: all 0.3s ease-out;
+                  background-color: transparent;
+                  color: rgba(75, 155, 150, 1);
+                  border-radius: 20px;
+                  border: 2px solid rgba(75, 155, 150, 1);
+                  transition: all 0.3s ease-out;
+                }
+              }
+            }
+          }
+          .form__footer {
+            text-align: center;
+            text-align: center;            
+            padding-top: 10px;
+
+            .form__footer__para {
+              font-size: 16px;
+              text-align: center;
+              color: #4a4a4a;
+              padding-top: 10px;
+            }
+            .form__footer__signuptext {
+              font-family: Poppins;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              text-align: center;
+              color: #e16120;
+            }
+          }
+        }
+      }
+    }
+  }
+}

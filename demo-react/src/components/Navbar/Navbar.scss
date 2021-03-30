@@ -1,0 +1,36 @@
+.navbar {
+  background:black;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 1.2rem;
+
+  .nav-menu {
+    display: flex;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+    
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      height: 80px;
+      padding-left: 1rem;
+
+      .nav-links {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+          background-color: #1888ff;
+          border-radius: 4px;
+          transition: all 0.2s ease-out;
+        }
+      }
+    }
+  }
+}
