@@ -10,6 +10,7 @@ function Navbar() {
 
   return (
     <>
+    
       <nav className='navbar'>
 
         <ul className='nav-menu'>
@@ -50,7 +51,7 @@ function Navbar() {
           </li>
         </ul>
         
-        <Button />
+        <Button/>
       </nav>
     </>
   );

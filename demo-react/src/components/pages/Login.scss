@@ -1,4 +1,6 @@
 .signup {
+
+  
   ::-webkit-input-placeholder {
     /* Edge */
 
@@ -46,9 +48,25 @@
         background-color: rgba(255, 255, 255, 0.4);
 
         form {
-          padding: 40px;
+          margin: auto;
+          width: 90%;
+          height:100%;
+          
 
           .form__header {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            margin-top: 25px;
+
+            img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 179px;
+              height: 62px;
+            }
           }
           .form__body {
             .input__name {
@@ -66,6 +84,12 @@
                 border: 1px solid rgba(75, 155, 150, 1);
                 border-radius: 20px;
               }
+            }
+            .hide__form__body__flname{
+              display: none;
+            }
+            .hide__form__body__conpass{
+              display: none;
             }
             .input {
               width: 95%;
@@ -94,7 +118,9 @@
                 color: #fff;
                 cursor: pointer;
                 background-color: rgba(75, 155, 150, 1);
-                margin-left: 110px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
 
                 &:hover {
                   padding: 6px 18px;
@@ -110,7 +136,7 @@
           }
           .form__footer {
             text-align: center;
-            text-align: center;            
+            text-align: center;
             padding-top: 10px;
 
             .form__footer__para {
@@ -126,6 +152,10 @@
               font-size: 16px;
               text-align: center;
               color: #e16120;
+
+              link{
+                text-decoration: none;
+              }
             }
           }
         }
